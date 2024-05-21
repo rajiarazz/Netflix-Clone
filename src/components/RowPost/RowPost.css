@@ -1,0 +1,17 @@
+.row-post{
+    padding: 35px 0 35px 6%;
+}
+.posters{
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-top: 10px;
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.poster-img{
+    max-height: 150px;
+    object-fit: cover;
+}
