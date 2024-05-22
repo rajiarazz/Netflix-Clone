@@ -10,3 +10,7 @@ body{
     color: #efefef;
     font-family: 'roboto';
 }
+.row-post-container{
+    position: relative;
+    margin-top: 150px;
+}

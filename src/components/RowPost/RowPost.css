@@ -1,5 +1,13 @@
 .row-post{
-    padding: 35px 0 35px 6%;
+    padding: 0px 0 35px 6%;
+    
+    
+}
+.banner-row-post{
+    padding: 0px 0 35px 6%;
+    position: absolute;
+    top: 75%;
+    width: 100%;
 }
 .posters{
     display: flex;
@@ -12,6 +20,11 @@
     display: none;
 }
 .poster-img{
-    max-height: 150px;
+    /* max-height: 150px; */
     object-fit: cover;
+    
+    max-height: 100px;
+}
+.large-poster{
+    max-height: 150px;
 }

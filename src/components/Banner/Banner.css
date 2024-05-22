@@ -1,58 +1,58 @@
 .banner{
-    background-image: url('https://wallpaperaccess.com/full/2703652.png');
+    
     background-size: cover;
     height: 500px;
     position: relative;
    
 }
 .content{
-    position: absolute;
-    width: 100%;
-    padding-left: 6%;
-    bottom: 0;
+  position: absolute;
+  width: 100%;
+  padding-left: 6%;
+  top: 50%;
 
 }
 .content h2{
-    margin-bottom: 12px;
-    font-size: 3rem;
-    font-weight: 800;
+  margin-bottom: 12px;
+  font-size: 3rem;
+  font-weight: 800;
 }
 .banner .description{
-    width: 500px;
-    font-size: 15px;
-    margin-bottom: 20px;
+  width: 500px;
+  font-size: 15px;
+  margin-bottom: 20px;
 }
 .banner-button{
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 .banner-button .btn{
-    display: flex;
-    gap: 10px;
-    padding: 5px 10px;
-    border-radius: 4px;
-    outline: none;
-    border: none;
-    display: inline-flex;
-    align-items: center;
-    font-size: 15px;
-    font-weight: 600;
-    cursor: pointer;
+  display: flex;
+  gap: 10px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
 }
 .banner-button .btn-dark{
-    background-color: #6d6d6eb3;
-    color: #fff;
+  background-color: #6d6d6eb3;
+  color: #fff;
 }
 .banner-button img{
-    width: 20px;
+  width: 20px;
 }
 .fade-bottom{
-    height: 500px;
-    background-image: linear-gradient(180deg,transparent,rgba(37,37,37,.61),#111);
+  height: 500px;
+  background-image: linear-gradient(180deg,transparent,rgba(37,37,37,.61),#111);
 }
 .banner-button .btn:hover{
-    background-color: #ffffffbf;
+  background-color: #ffffffbf;
 }
 .banner-button .btn-dark:hover{
-    background-color: #6d6d6e66;
+  background-color: #6d6d6e66;
 }
