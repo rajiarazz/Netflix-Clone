@@ -4,6 +4,7 @@ import Navbar from '../../components/Navbar/Navbar'
 import {action,popular,orginals, topRated,upcoming} from '../../urls'
 import Banner from '../../components/Banner/Banner'
 import RowPost from '../../components/RowPost/RowPost'
+import Footer from '../../components/Footer/Footer'
 function Home() {
   return (
     <div className='home'>
@@ -16,6 +17,7 @@ function Home() {
         <RowPost url={upcoming} title='Upcoming'/>
         <RowPost url={action} title='Actions'/>
         </div>
+        <Footer/>
         
         
     </div>
