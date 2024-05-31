@@ -9,7 +9,7 @@
   position: absolute;
   width: 100%;
   padding-left: 6%;
-  top: 50%;
+  top: 45%;
 
 }
 .content h2{
@@ -48,7 +48,7 @@
 }
 .fade-bottom{
   height: 500px;
-  background-image: linear-gradient(180deg,transparent,rgba(37,37,37,.61),#111);
+  background-image: linear-gradient(217deg,transparent,rgba(37,37,37,.61),#111);
 }
 .banner-button .btn:hover{
   background-color: #ffffffbf;
